@@ -1,0 +1,30 @@
+{
+  "name": "Student",
+  "plural": "n",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "student": {
+      "type": "string",
+      "required": true,
+      "default": "studentName"
+    },
+    "city": {
+      "type": "string",
+      "required": true,
+      "default": "city"
+    },
+    "GPA": {
+      "type": "number",
+      "required": true,
+      "default": 0
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

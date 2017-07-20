@@ -1,0 +1,18 @@
+{
+  "mongo": {
+    "name": "mongo",
+    "localStorage": "",
+    "file": "",
+    "connector": "memory"
+  },
+  "sample": {
+    "host": "localhost",
+    "port": 27017,
+    "url": "localhost:27017/",
+    "database": "sample",
+    "password": "",
+    "name": "sample",
+    "user": "",
+    "connector": "mongodb"
+  }
+}
